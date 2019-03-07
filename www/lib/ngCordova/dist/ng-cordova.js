@@ -6153,7 +6153,7 @@ angular.module('ngCordova.plugins.progressIndicator', [])
 // install   :      cordova plugin add https://github.com/phonegap-build/PushPlugin.git
 // link      :      https://github.com/phonegap-build/PushPlugin
 
-angular.module('ngCordova.plugins.push', [])
+angular.module('phonegap-plugin-push', [])
 
   .factory('$cordovaPush', ['$q', '$window', '$rootScope', '$timeout', function ($q, $window, $rootScope, $timeout) {
 
