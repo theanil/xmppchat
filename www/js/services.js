@@ -169,8 +169,8 @@ angular.module('app.services', [])
 	
 	 var SharedConnObj={};
 	
-	 SharedConnObj.BOSH_SERVICE = 'http://healthalogy.com:5280/http-bind';  
-	 //SharedConnObj.BOSH_SERVICE = 'https://conversejs.org/http-bind/';  
+	 //SharedConnObj.BOSH_SERVICE = 'http://xvamp:7070/http-bind/';  
+	 SharedConnObj.BOSH_SERVICE = 'http://157.230.143.48:5280/bosh/';  
 	 SharedConnObj.connection   = null;    // The main Strophe connection object.
 	 SharedConnObj.loggedIn=false;
 	 
